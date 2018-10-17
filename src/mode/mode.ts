@@ -13,6 +13,7 @@ export enum ModeName {
   EasyMotionMode,
   EasyMotionInputMode,
   SurroundInputMode,
+  CoerceInputMode,
   Disabled,
 }
 

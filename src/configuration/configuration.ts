@@ -217,6 +217,8 @@ class Configuration implements IConfiguration {
 
   surround = true;
 
+  coerce = true;
+
   easymotion = false;
   easymotionMarkerBackgroundColor = '';
   easymotionMarkerForegroundColorOneChar = '#ff0000';

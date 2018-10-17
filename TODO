@@ -1,0 +1,27 @@
+
+Coerce:
+  Set from Surround:
+    ☐ CommandSurroundAddTarget -> CommandCoerceAddTarget
+    ☐ CommandSurroundAddToReplacement -> CommandCoerceAddToReplacement
+    ✔ CommandSurroundModeRepeat -> CommandCoerceModeRepeat @done(18-10-17 09:18)
+    ☐ CommandSurroundModeStart -> CommandCoerceModeStart @started(18-10-17 09:39)
+    ☐ CommandSurroundModeStartVisual -> CommandCoerceModeStartVisual
+
+  Add from methods from `vscode-change-case`:
+    By @wmaurer
+
+    ☐ Import `change-case`
+      By @blakeembry
+
+    ☐ const `COMMAND_LABELS` @export
+    ☐ changeCaseCommand() @export
+    ☐ runCommand() @export
+    ☐ getSelectedTextIfOnlyOneSeclection()
+    ☐ getSelectedText()
+    ☐ const CHANGE_CASE*
+      These are two regex strings useful for...
+
+    ☐ getChangeCaseWordRangeAtPosition()
+    ☐ isRangeSimplyCursorPosition()
+    ☐ toSelection()
+    ☐ compareByEndPosition()

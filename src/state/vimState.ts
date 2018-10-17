@@ -93,6 +93,20 @@ export class VimState implements vscode.Disposable {
       } = undefined;
 
   /**
+   * How we define coerce will be similar to surround
+   */
+  public coerce:
+    | undefined
+    | {
+        active: boolean;
+        operator: 'change'  // `coerce.vim` _only_ uses the change operator, so we will too.
+        target: string | undefined;
+        replacement: string | undefined;
+        range: Range | undefined;
+        isVisualLine: boolean;
+      } = undefined;
+
+  /**
    * Used for command like <C-o> which allows you to return to insert after a command
    */
   public returnToInsertAfterCommand = false;

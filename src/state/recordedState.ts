@@ -91,6 +91,13 @@ export class RecordedState {
   public surroundKeyIndexStart = 0;
 
   /**
+   * Recorded state for coerce.
+   */
+  public hasRunCoerce = false;
+  public coerceKeys: string[] = [];
+  public coerceKeyIndexStart = 0;
+
+  /**
    * This is kind of a hack and should be associated with something like this:
    *
    * https://github.com/VSCodeVim/Vim/issues/805
